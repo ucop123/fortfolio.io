@@ -163,9 +163,8 @@ button:hover {
 /* Default styles for larger screens */
 
 @media only screen and (max-width: 767px) {
-  /* Styles for screens up to 767px wide (typically mobile devices) */
-  /* Adjust the max-width value according to your design */
-  /* This is just an example value */
+  /* Styles for screens up to 767px wide
+
 }
 
 
