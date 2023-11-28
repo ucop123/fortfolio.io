@@ -1,0 +1,161 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: 70%;
+    background-image: url(https://imgur.com/4F0760q.jpg)
+    
+    
+    
+   
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    background-size: 50%;
+    background-image: url(https://imgur.com/ZwGhXhV.jpg)
+    
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    }
+    
+nav ul li a:hover{
+        color: #e61c1c;
+    
+    
+    }
+
+.nav-button {
+        float: right;
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+
+}
+
+
+h2 {
+    color: #333;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about-content img {
+    margin-right: 20px;
+    
+}
+
+
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #e61c1c;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #ad1212;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+
+
+.social-links a:hover {
+    color: #007BFF;
+}
+
+.red-box {
+    background-color: #e61c1c;
+    padding: 6px; 
+    border-radius: 6px;
+}
+
+.btn {
+    
+    color: white; 
+    background-color: #e61c1c; 
+    border: none; 
+    padding: 8px 16px; 
+    text-decoration: none; 
+    display: inline-block; 
+    border-radius: 5px; 
+    
+}
+
+.btn:hover {
+    background-color: darkred; 
+}
+
+.about-content {
+    text-align: left;
+}
+
